@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #360033, #0b8793);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+#txt{
+    font-size: 45px;
+    margin-top: 3rem;
+    width: 35rem;
+    color: rgb(227, 235, 239);
+    text-align: center;
+    padding: 20px 12px;
+    border: 2px solid #360033;
+    box-shadow: 0px 0px 7px 0px #360033;
+}
+#para{
+    font-size: 80px;
+    color: rgb(227, 235, 239);
+    border: 2px solid #360033;
+    box-shadow: 0px 0px 7px 0px #360033;
+    width: 9rem;
+    margin-top: 3rem;
+    text-align: center;
+    display: none;
+    padding: 40px 10px;
+}
